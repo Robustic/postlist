@@ -7,7 +7,9 @@
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
     "test": "cross-env NODE_ENV=test jest --verbose --runInBand",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "deploy": "git push heroku master",
+    "logs:prod": "heroku logs --tail"
   },
   "author": "Juha Malinen",
   "license": "ISC",
