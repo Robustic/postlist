@@ -16,7 +16,7 @@ postsRouter.post('/', async (request, response) => {
             title: body.title,
             topic: body.topic,
             type2: body.type2,
-            dateCreated: body.dateCreated,
+            date: body.date,
             views: body.views === undefined ? 0 : body.views,
             likes: body.likes === undefined ? 0 : body.likes,
             comments: body.comments === undefined ? 0 : body.comments

@@ -43,7 +43,7 @@ describe('POST operation for posts', () => {
             title: 'New_post_Title_test',
             topic: 'New_post_Topic2_test',
             type2: 'New_post_Type22_test',
-            dateCreated: '2021-01-30',
+            date: '2021-01-30',
             views: 999,
             likes: 998,
             comments: 997
@@ -67,7 +67,7 @@ describe('POST operation for posts', () => {
             title: '0_likes_Title_test',
             topic: '0_likes_Topic2_test',
             type2: '0_likes_Type22_test',
-            dateCreated: '2020-02-02'
+            date: '2020-02-02'
         }
 
         await api
@@ -89,7 +89,7 @@ describe('POST operation for posts', () => {
         const newPost = {
             topic: 'No_title_Topic2_test',
             type2: 'No_title_Type22_test',
-            dateCreated: '2019-03-04',
+            date: '2019-03-04',
             views: 999,
             likes: 998,
             comments: 997

@@ -5,7 +5,7 @@ const initialPosts = [
         title: 'Title_test',
         topic: 'Topic_test',
         type2: 'Type2_test',
-        dateCreated: '2015-02-11',
+        date: '2015-02-11',
         views: 5,
         likes: 4,
         comments: 3
@@ -14,7 +14,7 @@ const initialPosts = [
         title: 'Title2_test',
         topic: 'Topic2_test',
         type2: 'Type22_test',
-        dateCreated: '2015-03-12',
+        date: '2015-03-12',
         views: 15,
         likes: 14,
         comments: 13
@@ -23,7 +23,7 @@ const initialPosts = [
         title: 'Title3_test',
         topic: 'Topic3_test',
         type2: 'Type23_test',
-        dateCreated: '2015-04-13',
+        date: '2015-04-13',
         views: 153,
         likes: 143,
         comments: 133
@@ -36,7 +36,7 @@ const nonExistingValidId = async () => {
             title: 'Title2_not_exist',
             topic: 'Topic2_test',
             type2: 'Type22_test',
-            dateCreated: '2015-03-25',
+            date: '2015-03-25',
             views: 15,
             likes: 14,
             comments: 13

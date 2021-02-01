@@ -8,7 +8,7 @@ const postSchema = new mongoose.Schema({
     },
     topic: String,
     type2: String,
-    dateCreated: String,
+    date: String,
     views: Number,
     likes: Number,
     comments: Number
